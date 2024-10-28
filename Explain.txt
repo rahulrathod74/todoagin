@@ -1,0 +1,38 @@
+JSON -> Java Script Object Notation
+
+
+JS Object -  let jso  =  {"key" : "value" } 
+                can also be written as {'key' : 'value' }
+JSON -       let json =  {"key" : "value" }
+
+console.log(jso[key]) -> value        [Output]
+console.log(json[key]) -> [Object]    [Output]
+
+console.log(jso)
+-> {"key" : "value" } 
+
+
+console.log(json)
+-> [Object][object]
+
+
+Data types in js 
+- Number
+- String
+- boolean
+- null
+- undefined
+- Bigint
+- Symbol
+
+- Object - {Key-value, Arrays, FunctionObjects}
+
+Parse[JSON -> JS object] 
+
+- Means - making the json object available to js to perform any action
+
+Stringify[JS object -> JSON]
+
+- Means - converting the js object to json object for http requests/response
+
+
